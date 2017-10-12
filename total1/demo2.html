@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		 <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0 (1)\font-awesome-4.7.0\css\font-awesome.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			.div1,
+			.div2,
+			.div3,
+			.div4 {
+				width: 90%;
+				height: 100px;
+				margin: 0 auto;
+				background: red;
+				border-radius: 10px;
+				padding: 10px 0 10px 10px;
+			}
+			
+			.div1 img,
+			.div2 img,
+			.div3 img,
+			.div4 img {
+				display: inline-block;
+				width: 20%;
+				height: 50%;
+				margin: 20px 0 0 30px
+			}
+			
+			.div1 .text,
+			.div2 .text,
+			.div3 .text,
+			.div4 .text {
+				vertical-align: top;
+				margin-top: 25px;
+				width: 45%;
+				display: inline-block;
+				font-size: 14px;
+				color: #FFFFFF;
+			}
+			
+			.centerT,
+			.centerY {
+				position: relative;
+				width: 97%;
+				margin: 30px auto
+			}
+			
+			.centerT .top,
+			.centerY .top {
+				border-top: 1px solid #EED8AE;
+			}
+			
+			.centerT .text {
+				background: #fff;
+				width: 80px;
+				font-size: 18px;
+				color: #EED8AE;
+				position: absolute;
+				top: -15px;
+				left: 46%;
+			}
+			
+			.centerY .text {
+				background: #fff;
+				width: 80px;
+				font-size: 18px;
+				color: #EED8AE;
+				position: absolute;
+				top: -12px;
+				left: 46%;
+			}
+			
+			.new1,
+			.new2 {
+				margin: 30px 0 0 0;
+				padding: 0 10px 0 40px;
+				height: 200px;
+				border-right: 1px solid #DDDDDD;
+			}
+			
+			.new3 {
+				margin: 30px 0 0 0;
+				padding: 0 10px 0 40px;
+				height: 200px;
+			}
+			
+			.new1 h3,
+			.new2 h3,
+			.new3 h3 {
+				color: #EED8AE;
+				margin-bottom: 20px;
+			}
+			
+			.new1 .txt1,
+			.new2 .txt1,
+			.new3 .txt1 {
+				display: inline-block;
+				width: 30%;
+				color: #DDDDDD;
+				font-size: 14px;
+				line-height: 14px;
+				vertical-align: top;
+			}
+			
+			.new1 .txt2,
+			.new2 .txt2,
+			.new3 .txt2 {
+				display: inline-block;
+				width: 65%;
+				color: #000000;
+				font-size: 14px;
+				line-height: 14px;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				vertical-align: top;
+			}
+			
+			.newLeft1 {
+				margin-bottom: 5px;
+			}
+			
+			.centerT h3,
+			.centerY h3 {
+				color: #EED8AE;
+				padding: 0 0 0 20px
+			}
+			
+			
+		
+		
+			
+		
+			
+			@media only screen and (max-width: 1024px) {
+				.div1 img,
+				.div2 img,
+				.div3 img,
+				.div4 img {
+					display: inline-block;
+					width: 20%;
+					height: 50%;
+					margin: 20px 0 0 20px
+				}
+			}
+			
+			@media only screen and (max-width: 767px) {
+				.centerT .text {
+					position: absolute;
+					top: -15px;
+					left: 38%;
+				}
+				.centerY .text {
+					position: absolute;
+					top: -12px;
+					left: 38%;
+				}
+				.new1,
+				.new2 {
+					border: 0;
+				}
+			
+				
+			}
+			
+	
+		
+			
+	
+			
+			.tubiao1,
+			.tubiao2 {
+				width: 90%;
+				margin: 0 auto 20px auto;
+			}
+			
+			.tubiao1 .col-sm-3 img,
+			.tubiao2 .col-sm-3 img {
+				height: 30px;
+				width: 100%;
+				padding: 0 20px
+			}
+
+			/*圆*/
+			@media(max-width: 721px){
+				.mar-div{
+					width: 150px !important;
+					height: 150px !important
+				}
+			}
+			
+		    @media(max-width:380px){
+		    	.mar-div{
+		    		width: 100px !important;
+					height: 100px !important;
+					font-size: 5px important;
+				}
+				.font-div{
+					font-size: 8px !important
+				}
+
+		    }
+		</style>
+
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row hidden-xs">
+				<div class="col-xs-3">
+					<div class="div1">
+						<a href="#">
+							<img src="button/home／buttonNET.png" />
+							<span class="text text-center">服务网点<span>
+							</a>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="div2"><a href="#">
+						<img src="button/home／button206772-200.png"/>
+						<span class="text text-center">报名须知<span>
+							</a>
+					</div></div>
+				<div class="col-xs-3">
+					<div class="div3">
+						<a href="#">
+						<img src="button/home／button839986-200.png"/>
+						<span class="text text-center">我的教练<span>
+							</a>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="div4">
+						<a href="#">
+						<img src="button/home／button954309-200.png"/>
+						<span class="text text-center">我的客服<span>
+							</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row visible-xs">
+				<div class="col-xs-6">
+					<div class="div1">
+						<a href="#">
+							<img src="button/home／buttonNET.png" />
+							<span class="text text-center" style="font-size: 10px">服务网点<span>
+							</a>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="div2"><a href="#">
+						<img src="button/home／button206772-200.png"/>
+						<span class="text text-center" style="font-size: 10px">报名须知<span>
+							</a>
+					</div>
+				</div>
+			</div>
+			<div class="row visible-xs" style="margin-top: 10px">
+				<div class="col-xs-6">
+					<div class="div3">
+						<a href="#">
+						<img src="button/home／button839986-200.png"/>
+						<span class="text text-center" style="font-size: 10px">我的教练<span>
+							</a>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="div4">
+						<a href="#">
+						<img src="button/home／button954309-200.png"/>
+						<span class="text text-center" style="font-size: 10px">我的客服<span>
+							</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4 col-xs-12 new1">
+					<h3 class="text-center hidden-xs">三亿新闻</h3>
+					<h3 class="visible-xs">三亿新闻</h3>
+					<div class="newLeft1">
+						<div class="txt1">2017-06-15</div>
+						<a href="#"><div class="txt2">刚忙完高考学生又忙高考驾照dasdasdasdasdasd</div></a>
+					</div>
+					<div class="newLeft1">
+						<div class="txt1">2017-06-10</div>
+						<a href="#"><div class="txt2">2017驾考新规告诉你为什么要考试驾照</div></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12 new2">
+					<h3 class="text-center hidden-xs">学车宝典</h3>
+					<h3 class="visible-xs">学车宝典</h3>
+					<div class="newLeft1">
+						<div class="txt1">2017-06-22</div>
+						<a href="#"><div class="txt2">深圳学车哪个驾校好?深圳学车哪个驾校好?</div></a>
+					</div>
+					<div class="newLeft1">
+						<div class="txt1">2017-06-22</div>
+						<a href="#"><div class="txt2">深圳学车要多久拿证?学费要多少钱</div></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12 new3">
+					<h3 class="text-center hidden-xs">最新优惠</h3>
+					<h3 class="visible-xs">最新优惠</h3>
+					<div class="newLeft1">
+						<div class="txt1">2017-06-22</div>
+						<a href="#"><div class="txt2">仲夏嘉年华 暑假极速班</div></a>
+					</div>
+					<div class="newLeft1">
+						<div class="txt1">2017-06-22</div>
+						<a href="#"><div class="txt2">0首付0利息45天特快拿证活动</div></a>
+					</div>
+				</div>
+			</div>
+			<div class="row centerT">
+				<div class="col-xs-12 top  hidden-xs"></div>
+				<div class="text text-center hidden-xs">特惠班别</div>
+				<h3 class="visible-xs">特惠班别</h3>
+			</div>
+			<table class="container">
+				<tr class="hidden-xs">
+					<th class="col-xs-4" >
+						<div class="mar-div" style="width: 200px;height: 200px;background-color: #efefef;border: 3px #a72525 solid;-webkit-border-radius: 100px;margin:auto!important;text-align: center!important;vertical-align: middle;">
+							<div style="height: inherit;width:inherit;display: table-cell; vertical-align: middle;">
+								<h3  class="font-div"><span class="fa fa-rmb"></span> 9999</h3>
+								<button class="font-div btn btn-default" style="background:red;">特惠班</button>
+							</div>
+						</div>
+					</th>
+					<th class="col-xs-4" >
+						<div class="mar-div"  style="width: 200px;height: 200px;background-color: #efefef;border: 3px #a72525 solid;-webkit-border-radius: 100px;margin:auto!important;text-align: center!important;vertical-align: middle;">
+							<div style="height: inherit;width:inherit;display: table-cell; vertical-align: middle;">
+								<h3 class="font-div"><span class="fa fa-rmb"></span> 9999</h3>
+								<button class="font-div btn btn-default" style="background:red">特惠班</button>
+							</div>
+						</div>
+					</th>
+
+					<th class="col-xs-4" >
+						<div class="mar-div"  style="width: 200px;height: 200px;background-color: #efefef;border: 3px #a72525 solid;-webkit-border-radius: 100px;margin:auto!important;text-align: center!important;vertical-align: middle;">
+							<div style="height: inherit;width:inherit;display: table-cell; vertical-align: middle;">
+								<h3 class="font-div"><span class="fa fa-rmb"></span> 9999</h3>
+								<button class="font-div btn btn-default" style="background:red">特惠班</button>
+							</div>
+						</div>
+					</th>
+
+				</tr>
+				<tr class="visible-xs">
+					<th class="col-xs-6" >
+						<div class="mar-div" style="width: 200px;height: 200px;background-color: #efefef;border: 3px #a72525 solid;-webkit-border-radius: 100px;margin:auto!important;text-align: center!important;vertical-align: middle;">
+							<div style="height: inherit;width:inherit;display: table-cell; vertical-align: middle;">
+								<h3  class="font-div"><span class="fa fa-rmb"></span> 9999</h3>
+								<button class="font-div  btn btn-default btn-xs" style="background:red;">特惠班</button>
+							</div>
+						</div>
+					</th>
+					<th class="col-xs-6" >
+						<div class="mar-div"  style="width: 200px;height: 200px;background-color: #efefef;border: 3px #a72525 solid;-webkit-border-radius: 100px;margin:auto!important;text-align: center!important;vertical-align: middle;">
+							<div style="height: inherit;width:inherit;display: table-cell; vertical-align: middle;">
+								<h3 class="font-div"><span class="fa fa-rmb"></span> 9999</h3>
+								<button class="font-div btn btn-default btn-xs" style="background:red">特惠班</button>
+							</div>
+						</div>
+					</th>
+				</tr>
+
+				<tr class="visible-xs" >
+
+					<th class="col-xs-6"  >
+						<div class="mar-div"  style="width: 200px;height: 200px;background-color: #efefef;border: 3px #a72525 solid;-webkit-border-radius: 100px;margin-top:10px!important;text-align: center!important;vertical-align: middle;">
+							<div style="height: inherit;width:inherit;display: table-cell; vertical-align: middle;">
+								<h3 class="font-div"><span class="fa fa-rmb"></span> 9999</h3>
+								<button class="font-div btn btn-default btn-xs" style="background:red">特惠班</button>
+							</div>
+						</div>
+					</th>
+
+				</tr>
+
+				<!-- <div class="col-sm-3 col-xs-5 txt1" style="text-align: center">
+					<div class="top">￥7980</div>
+					<a href="#"><button class="buttontop btn">普通班</button></a>
+				</div>
+				<div class="col-xs-1" style="text-align: center"></div>
+				<div class="col-sm-3 col-xs-5 txt2">
+						<div class="top">￥8980</div>
+					<a href="#"><button class="buttontop btn">包住班</button></a>
+				</div>
+				<div class="col-xs-1" style="text-align: center"></div>
+				<div class="col-xs-1 visible-xs"></div>
+				<div class="col-sm-3 col-xs-5 txt3" style="text-align: center">
+					<div class="top">￥10980</div>
+					<a href="#"><button class="buttontop btn">至尊班</button></a>
+				</div>	 -->
+			</table>
+			<div class="row centerY ">
+				<div class="col-xs-12 top hidden-xs"></div>
+				<div class="text text-center hidden-xs">友情链接</div>
+				<h3 class="visible-xs">友情链接</h3>
+			</div>
+			 
+			 <div class="row tubiao1">
+			 	<div class="col-sm-3 col-xs-6">
+			 		<img class="img-responsive"  src="link\home\linkBitmap.png">
+			 	</div>
+			 	<div class="col-sm-3 col-xs-6">
+			 		<img class="img-responsive" src="link\home\linkBitmap.png">
+			 	</div>
+			 	<div class="col-sm-3 hidden-xs">
+			 		<img class="img-responsive"src="link\home\linkBitmap.png">
+			 	</div>
+			 	<div class="col-sm-3 hidden-xs">
+			 		<img class="img-responsive" src="link\home\linkBitmap.png">
+			 	</div>
+			 	 </div>
+			 	<div class="row tubiao2">
+			 	<div class="col-sm-3 col-xs-6">
+			 		<img class="img-responsive" src="link\home\linkBitmap.png">
+			 	</div>
+			 	<div class="col-sm-3 col-xs-6">
+			 		<img class="img-responsive" src="link\home\linkBitmap.png">
+			 	</div>
+			 	<div class="col-sm-3 hidden-xs">
+			 		<img class="img-responsive"src="link\home\linkBitmap.png">
+			 	</div>
+			 	<div class="col-sm-3 hidden-xs">
+			 		<img class="img-responsive" src="link\home\linkBitmap.png">
+			 	</div>
+			 	
+			 </div>
+			
+			
+	
+		</div>
+		
+		
+	</body>
+</html>
